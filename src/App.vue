@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <h1>{{ msg }}</h1>
-    <Hello/>
-  </div>
+  <h1>
+    {{ msg }}
+  </h1>
+  <Hello />
 </template>
 
 <script>
@@ -15,6 +15,12 @@ export default {
   data() {
     return {
       msg: 'Hello Webpack...?'
+    }
+  },
+  methods: {
+    log() {
+      window.addEventListener()
+      document.querySelector
     }
   }
 }
