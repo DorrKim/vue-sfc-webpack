@@ -2,7 +2,7 @@
   "presets": ["@babel/preset-env"],
   "plugins": [
     [
-      "@babel/plugin-tranform-runtime", 
+      "@babel/plugin-transform-runtime", 
       {
         "corejs":3
       } 
