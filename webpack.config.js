@@ -13,6 +13,7 @@ module.exports = {
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
+    puclicPaht: '/',
     clean: true
     //filename: 'main.js'
   },
@@ -47,6 +48,7 @@ module.exports = {
     })
   ],
   devServer: {
+    historyApiFallback: true,
     port: 8080
   }
 }
